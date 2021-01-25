@@ -6,8 +6,10 @@ def summation(a,b):
 
 def main():
     #write your code below this line
-    divide(3,4)
-    summation(4,5)
+    division_answer = divide(3,4)
+    print(division_answer)
+    summation_answer = summation(4,5)
+    print(summation_answer)
 
 if __name__ == '__main__':
     main()
